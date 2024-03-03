@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#202020"
+    android:scrollbarThumbHorizontal="#94E7E2"
+    android:scrollbarThumbVertical="#94E7E2">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="287dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_shape_segment"
+        android:backgroundTint="#264e58"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="303dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="339dp"
+        android:layout_height="55dp"
+        android:width="40dp"
+        android:fontFamily="@font/inter_thin"
+        android:scrollbarThumbHorizontal="#94E7E2"
+        android:scrollbarThumbVertical="#94E7E2"
+        android:text="Class Note"
+        android:textColor="#94E7E2"
+        android:textColorHighlight="#94E7E2"
+        android:textColorHint="#94E7E2"
+        android:textColorLink="#94E7E2"
+        android:textSize="48sp"
+        app:lineHeight="48sp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="26dp" />
+
+    <TextView
+        android:id="@+id/please_logi"
+        android:layout_width="204dp"
+        android:layout_height="23dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="top"
+        android:text="@string/request_log"
+        android:textColor="#7b7b7b"
+        android:textSize="14dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_shape_segment"
+        android:backgroundTint="#264e58"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="120dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="64dp"
+        android:layout_height="56dp"
+        android:background="@drawable/button_shape_segment"
+        android:backgroundTint="#264e58"
+        app:srcCompat="@drawable/ic_launcher_foreground"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="217dp"
+        tools:layout_editor_absoluteY="155dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="106dp"
+        android:layout_height="13dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="256dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="106dp"
+        android:layout_height="13dp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        tools:layout_editor_absoluteX="90dp"
+        tools:layout_editor_absoluteY="324dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="86dp"
+        android:layout_height="1px"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="86dp"
+        android:layout_height="1px"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="139dp" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="287dp"
+        android:layout_height="42dp"
+        android:background="@drawable/button_shape_segment"
+        android:backgroundTint="#264e58"
+        tools:layout_editor_absoluteX="66dp"
+        tools:layout_editor_absoluteY="239dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="95dp"
+        android:layout_height="10dp"
+        android:text="Forget Password?"
+        android:textColor="#616161"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="278dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="464dp"
+        android:background="@drawable/button_shape_segment"
+        android:text="Login"
+        android:backgroundTint="#2c3535"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="179dp"
+        android:layout_height="19dp"
+        android:text="Don’t Have Account?"
+        android:textColor="#ffffff"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="116dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="179dp"
+        android:layout_height="19dp"
+        android:text="Sign Up"
+        android:textColor="#2c3535"
+        android:textSize="10dp"
+        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteY="579dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

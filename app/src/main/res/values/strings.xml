@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">E-Diary</string>
+    <string name="app_name_rec">Class note</string>
+    <string name="request_log">Please Login To Your Account</string>
 </resources>
