@@ -31,7 +31,7 @@
         android:textColorHint="#94E7E2"
         android:textColorLink="#94E7E2"
         android:textSize="48sp"
-        app:lineHeight="48sp"
+        app:lineHeight="40sp"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="66dp"
         tools:layout_editor_absoluteY="26dp" />
