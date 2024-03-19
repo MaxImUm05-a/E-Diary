@@ -40,7 +40,7 @@ public class Sign_up extends AppCompatActivity {
         });
     }
         public void btnClick(View v) {
-
+            showInfo(((Button) v).getText().toString());
 
         }
 
