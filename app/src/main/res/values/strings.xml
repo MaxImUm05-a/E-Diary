@@ -2,4 +2,12 @@
     <string name="app_name">E-Diary</string>
     <string name="app_name_rec">Class note</string>
     <string name="request_log">Please Login To Your Account</string>
+    <string name="hint_email_field">Enter email</string>
+    <string name="hint_pass_field">Enter password</string>
+    <string name="not_have_acc">Don’t Have Account?</string>
+    <string name="button_log">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="forgot_pass">Forgot Password?</string>
+
+
 </resources>
