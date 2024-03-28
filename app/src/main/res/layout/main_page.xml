@@ -24,6 +24,12 @@
             android:layout_height="wrap_content"
             app:srcCompat="@drawable/whiconwh___ionicons___sharp___homewt_sharp" />
 
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/icon___ionicons___filled___cale232332ndar" />
+
     </FrameLayout>
 
     <FrameLayout
@@ -56,7 +62,7 @@
         android:layout_width="78dp"
         android:layout_height="24dp"
         android:layout_marginTop="4dp"
-        android:layout_marginEnd="24dp"
+        android:layout_marginEnd="36dp"
         android:text="Monday"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -67,7 +73,7 @@
         android:layout_width="87dp"
         android:layout_height="24dp"
         android:layout_marginTop="40dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="24dp"
         android:text="28.02.2024"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -88,8 +94,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/icon___ionicons___filled___cale232332ndar"
-        tools:layout_editor_absoluteX="269dp"
-        tools:layout_editor_absoluteY="16dp" />
+        tools:layout_editor_absoluteX="375dp"
+        tools:layout_editor_absoluteY="12dp" />
 
     <View
         android:layout_width="60dp"
