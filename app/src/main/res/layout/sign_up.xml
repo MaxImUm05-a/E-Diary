@@ -4,9 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#202020"
-    android:scrollbarThumbHorizontal="#94E7E2"
-    android:scrollbarThumbVertical="#94E7E2">
+    android:background="#202020">
+<!--    android:scrollbarThumbHorizontal="#94E7E2">-->
+<!--    android:scrollbarThumbVertical="#94E7E2">-->
 
     <View
         android:id="@+id/view"
@@ -23,9 +23,7 @@
         android:layout_height="55dp"
         android:width="40dp"
         android:fontFamily="@font/inter_thin"
-        android:scrollbarThumbHorizontal="#94E7E2"
-        android:scrollbarThumbVertical="#94E7E2"
-        android:text="Class Note"
+        android:text="@string/app_name_rec"
         android:textColor="#94E7E2"
         android:textColorHighlight="#94E7E2"
         android:textColorHint="#94E7E2"
@@ -77,21 +75,24 @@
         android:layout_width="106dp"
         android:layout_height="13dp"
         android:ems="10"
+        android:hint="@string/hint_email_field"
         android:inputType="textEmailAddress"
+        android:textColorHint="#616161"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="256dp" />
+        tools:layout_editor_absoluteY="252dp" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/EditTextPassword"
         android:layout_width="106dp"
         android:layout_height="13dp"
         android:ems="10"
-        android:inputType="textEmailAddress"
+        android:inputType="textPassword"
+        android:hint="@string/hint_pass_field"
         tools:layout_editor_absoluteX="90dp"
-        tools:layout_editor_absoluteY="324dp" />
+        tools:layout_editor_absoluteY="319dp" />
 
     <View
-        android:id="@+id/view3"
+        android:id="@+id/Viewview3"
         android:layout_width="86dp"
         android:layout_height="1px"
         tools:layout_editor_absoluteX="66dp"
@@ -105,7 +106,7 @@
         tools:layout_editor_absoluteY="139dp" />
 
     <View
-        android:id="@+id/view"
+        android:id="@+id/Viewview"
         android:layout_width="287dp"
         android:layout_height="42dp"
         android:background="@drawable/button_shape_segment"
@@ -117,7 +118,7 @@
         android:id="@+id/textView2"
         android:layout_width="95dp"
         android:layout_height="10dp"
-        android:text="Forget Password?"
+        android:text="@string/forgot_pass"
         android:textColor="#616161"
         android:textSize="10dp"
         tools:layout_editor_absoluteX="262dp"
@@ -129,7 +130,7 @@
         android:layout_height="42dp"
         android:layout_marginTop="464dp"
         android:background="@drawable/button_shape_segment"
-        android:text="Login"
+        android:text="@string/button_log"
         android:backgroundTint="#2c3535"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.478"
@@ -140,7 +141,7 @@
         android:id="@+id/textView4"
         android:layout_width="179dp"
         android:layout_height="19dp"
-        android:text="Don’t Have Account?"
+        android:text="@string/not_have_acc"
         android:textColor="#ffffff"
         android:textSize="10dp"
         tools:layout_editor_absoluteX="116dp"
@@ -150,10 +151,10 @@
         android:id="@+id/textView3"
         android:layout_width="179dp"
         android:layout_height="19dp"
-        android:text="Sign Up"
+        android:text="@string/sign_up"
         android:textColor="#2c3535"
         android:textSize="10dp"
-        tools:layout_editor_absoluteX="206dp"
+        tools:layout_editor_absoluteX="209dp"
         tools:layout_editor_absoluteY="579dp" />
 
 
